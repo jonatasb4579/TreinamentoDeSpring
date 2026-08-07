@@ -13,4 +13,6 @@
 
    public interface SerieRepository extends JpaRepository<Serie, Long> {
 }
+
+Aprendi sobre derived queries
  */
