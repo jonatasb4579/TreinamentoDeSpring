@@ -8,8 +8,7 @@ public class ConsultaChatGPT {
 
         
         OpenAiService service = new OpenAiService
-                ("sk-proj-vu7otYkk2YOML9XZBoROCKhZHh_9oL4qi08nTYXCz_t8Ak" +
-                        "4h623pDdbjsUWCGau3Lgj8mJERjQT3BlbkFJq-9lHuogqfiRTdZEXR9CWd0DzLkr81QjlmJbKIrPTloHf8ZArRDfvQFfYHV6LPtwWKWjmf5qEA");
+                ("chave da API do GPT");
 
 
         CompletionRequest requisicao = CompletionRequest.builder()
