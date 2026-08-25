@@ -7,7 +7,8 @@ public class ConsultaChatGPT {
     public static String obterTraducao(String texto) {
 
         
-        OpenAiService service = new OpenAiService("cole aqui sua chave");
+        OpenAiService service = new OpenAiService
+                ("chave da API do GPT");
 
 
         CompletionRequest requisicao = CompletionRequest.builder()
